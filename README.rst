@@ -13,4 +13,4 @@ To install the latest version from `GitHub <https://github.com/tsakailab/cisexpk
     git clone https://github.com/tsakailab/cisexpkit.git
     cd cisexpkit
 
-Then you will see a directory Experiments containing all sample codes and documents.
+Then you will see a directory Experiment containing all sample codes and documents.

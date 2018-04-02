@@ -1,32 +1,16 @@
-SPMLIB: Sparse Modeling Library
+CISExpKit: Student experiment kit, CIS Nagasaki University
 ===============================
-SPMLIB is a Python package for sparse modeling and optimization.
+CISExpKit is a C++ codes for learning basic uses of librealsense.
 
 
 Installation
 ------------
 
-To install the latest version from `GitHub <https://github.com/tsakailab/spmlib>`_ do
+To install the latest version from `GitHub <https://github.com/tsakailab/cisexpkit>`_ do
 
 ::
 
-    git clone https://github.com/tsakailab/spmlib.git
-    cd spmlib
-    python setup.py install
+    git clone https://github.com/tsakailab/cisexpkit.git
+    cd cisexpkit
 
-The install commands will have to be performed with sudo.
-
-Another choice for a developer is to install as follows:
-
-::
-
-    python setup.py develop --user
-
-Then you can edit the source codes in this package and see directly the changes without reinstallation.
-In this case, you can easily uninstall by
-
-::
-
-    python setup.py develop -u
-
-This developer installation is recommended before we register SPMLIB at PyPI to enable pip installation.
+Then you will see a directory Experiments containing all sample codes and documents.

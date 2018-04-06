@@ -156,10 +156,10 @@ int ComputePlane(const Mat& Depth, Mat& vecNormal, Mat& vecPoint)
 
 
 int ColorPlane(const Mat& vecN, const Mat& vecP, const Mat& Depth, const float& eps_mm, Mat& bgrImage,
-                    Mat& vecC, Point& posC, float& height, bool maskc)
+                    Mat& vecC, Point& posC, float& maxheight, bool maskc)
 {
     Point3f P;
-    float maxheight, h;
+    float h;
 
     maxheight = 0.0;
     posC = Point(0,0);

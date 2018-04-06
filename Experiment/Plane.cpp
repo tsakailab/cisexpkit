@@ -57,6 +57,7 @@ int main(void)
     scale = dev->get_depth_scale();
 
     // Parameters
+    float eps = 0.02;
     Mat vecN, vecP, vecC; 
     Point posC;
     float height;
@@ -85,7 +86,7 @@ int main(void)
 
             if(key == 'm') mask_nodepth = !mask_nodepth;
             // detect and color the plane
-            ColorPlane(vecN, vecP, depth, eps0.02, color, vecC, posC, height, mask_nodepth);
+            ColorPlane(vecN, vecP, depth, eps, color, vecC, posC, height, mask_nodepth);
 
             // Write the height by
             // putText(image, text, position(bottom left),
@@ -154,8 +155,8 @@ int ComputePlane(const Mat& Depth, Mat& vecNormal, Mat& vecPoint)
 }
 
 
-int ColorPlane(const Mat& vecN, const Mat& vecP, const Mat& Depth, const double& eps_mm, Mat& bgrImage,
-                    Mat& vecC, Point& posC, float& height, bool maskc=false)
+int ColorPlane(const Mat& vecN, const Mat& vecP, const Mat& Depth, const float& eps_mm, Mat& bgrImage,
+                    Mat& vecC, Point& posC, float& height, bool maskc)
 {
     Point3f P;
     float maxheight, h;

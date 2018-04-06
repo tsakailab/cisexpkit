@@ -69,8 +69,8 @@ int main(void)
 
     char key;
     bool mask_nodepth = false;
-    bool show_dist = true;
-    bool show_3points = false;
+    bool show_dist = false;
+    bool show_3points = true;
     while((key = waitKey(1)) != 'q'){
         dev->wait_for_frames();
 

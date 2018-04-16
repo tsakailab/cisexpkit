@@ -209,8 +209,5 @@ void Zuv_to_XY(float Z, float u, float v, float *X, float *Y)
 {
 //  *X = // (available variables: Z, u, v, camera_param.fx)
 //  *Y = // (available variables: Z, u, v, camera_param.fy)
-
-    *X = Z * u / camera_param.fx;
-    *Y = Z * v / camera_param.fy;
 }
 

@@ -1,6 +1,6 @@
 CISExpKit: Student experiment kit, CIS Nagasaki University
 ===============================
-CISExpKit is Python (and C++) codes for learning basic uses of realsense.
+CISExpKit is a set of Python (and C++) codes for learning basic uses of realsense.
 
 
 Installation

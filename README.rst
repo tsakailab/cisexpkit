@@ -1,6 +1,6 @@
 CISExpKit: Student experiment kit, CIS Nagasaki University
 ===============================
-CISExpKit is a C++ codes for learning basic uses of librealsense.
+CISExpKit is a Python (and C++) codes for learning basic uses of realsense.
 
 
 Installation

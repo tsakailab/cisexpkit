@@ -1,0 +1,6 @@
+opencv-python
+matplotlib
+plotly
+pyrealsense2
+mediapipe 
+jupyter
